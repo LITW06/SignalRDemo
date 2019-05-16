@@ -8,7 +8,7 @@ You'll then need to make sure to add the two following lines in the `Startup.cs`
 
 https://github.com/LITW06/SignalRDemo/blob/master/SignalRDemo/Startup.cs#L26
 
-https://github.com/LITW06/SignalRDemo/blob/master/SignalRDemo/Startup.cs#L42-L45 (on this line you don't have to use `/chathub', you can use any URL you want)
+https://github.com/LITW06/SignalRDemo/blob/master/SignalRDemo/Startup.cs#L42-L45 (on this line you don't have to use `/chathub`, you can use any URL you want)
 
 Finally, on the page(s) that you'll want to use signalR, you'll need to add a reference to the signalR JavaScript:
 
