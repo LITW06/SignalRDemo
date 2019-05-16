@@ -12,6 +12,6 @@ https://github.com/LITW06/SignalRDemo/blob/master/SignalRDemo/Startup.cs#L42-L45
 
 Finally, on the page(s) that you'll want to use signalR, you'll need to add a reference to the signalR JavaScript:
 
-https://github.com/LITW06/SignalRDemo/blob/master/SignalRDemo/Startup.cs#L42-L45
+https://github.com/LITW06/SignalRDemo/blob/master/SignalRDemo/Views/Home/Index.cshtml#L17
 
 Good luck!
