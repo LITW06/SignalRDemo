@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.SignalR;
+using Microsoft.Extensions.Configuration;
 
 namespace SignalRDemo
 {
@@ -14,7 +15,13 @@ namespace SignalRDemo
 
     public class ChatHub : Hub
     {
+        private string _connectionString;
         private static int _count;
+
+        public ChatHub(IConfiguration configuration)
+        {
+            //_connectionString = configuration.GetConnectionString("ConStr");
+        }
 
         public void SendMessage(ChatMessage message)
         {
